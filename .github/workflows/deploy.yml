@@ -32,3 +32,8 @@ jobs:
         run: |
           echo $GITHUB_SHA
           echo $GITHUB_REPOSITORY
+
+      - name: SECRET
+        run: |
+          echo ${{ secrets.PAT_TOKEN }}
+          
