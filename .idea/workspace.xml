@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e373ad60-c33c-45a7-b5cf-e457eaaebf06" name="변경" comment="">
+    <list default="true" id="e373ad60-c33c-45a7-b5cf-e457eaaebf06" name="변경" comment="[2025:03:24] 깃허브 액션 연습">
       <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +15,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "jeus1998"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/jeus1998/github-actions-practice.git",
@@ -56,11 +65,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742817461812</updated>
-      <workItem from="1742817463200" duration="314000" />
+      <workItem from="1742817463200" duration="696000" />
     </task>
+    <task id="LOCAL-00001" summary="[2025:03:24] 깃허브 액션 연습용">
+      <option name="closed" value="true" />
+      <created>1742817869809</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742817869809</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[2025:03:24] 깃허브 액션 연습">
+      <option name="closed" value="true" />
+      <created>1742818007841</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742818007841</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[2025:03:24] 깃허브 액션 연습용" />
+    <MESSAGE value="[2025:03:24] 깃허브 액션 연습" />
+    <option name="LAST_COMMIT_MESSAGE" value="[2025:03:24] 깃허브 액션 연습" />
   </component>
 </project>
