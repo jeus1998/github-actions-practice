@@ -1,0 +1,25 @@
+# Workflow 이름
+# Workflow: 하나의 yml 파일
+name: Github Actions 실행시켜보기
+
+# Event : 실행되는 시점을 설정
+# main 브랜치에 push 될 때 아래 Workflow 실행
+on:
+  push:
+    branches:
+      - main
+
+# 하나의 Workflow 1개 이상의 Job 으로 구성
+# 여러 Job 가본적으로 병렬적으로 수행된다.
+jobs:
+  # Job 식별하기 위한 id
+  My-Deploy-Job:
+    # Github Actions 실행시킬 서버 종류 선택
+    runs-on: ubuntu-latest
+
+    # Step: 특정 작업을 수행하는 가장 작은 단위
+    # Job 1개 이상의 Step 으로 구성
+    steps:
+      - name: Hello World 찍기
+        run: echo "Hello World"
+
