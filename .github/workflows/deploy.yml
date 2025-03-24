@@ -33,7 +33,7 @@ jobs:
           echo $GITHUB_SHA
           echo $GITHUB_REPOSITORY
 
-      - name: SECRET
+      - name: SECRET <출력도 하지 않는다>
         run: |
           echo ${{ secrets.PAT_TOKEN }}
           
